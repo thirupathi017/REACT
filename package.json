@@ -1,0 +1,34 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "I definitely finish this course",
+  "scripts": {
+    "test": " jest",
+    "start": "npx parcel index.html",
+    "build":"npx parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thirupathi017/REACT.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "thiru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thirupathi017/REACT/issues"
+  },
+  "homepage": "https://github.com/thirupathi017/REACT#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+
+    "react-dom": "^19.1.1"
+  },
+  "browserslist":[
+    "last 2 versions"
+  ]
+}

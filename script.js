@@ -1,3 +1,7 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+
 
 // heading is not a tag it is an object
 
@@ -21,16 +25,16 @@ ReactElement(Object)-->HtML(Browser understand)
 const parent = React.createElement("div"
     , { id: "parent" },
     [React.createElement("div",
-        { id: "child" },
+        { id: "child1" },
         // here we are giving the array of childrens
-        [React.createElement("h1", {}, "I am h1 tag"),
-        React.createElement("h2", {}, "I am h2 tag")]),
+        [React.createElement("h1", {key:"c1h1"}, "I am h1 tag"),
+        React.createElement("h2", {key:"c1h2"}, "I am h2 tag")]),
     
      React.createElement("div",
-        { id: "child" },
+        { id: "child2" },
         // here we are giving the array of childrens
-        [React.createElement("h1", {}, "I am h1 tag"),
-        React.createElement("h2", {}, "I am h2 tag")])]
+        [React.createElement("h1", {key:"c2h1"}, "I am h1 tag"),
+        React.createElement("h2", {key:"c2h2"}, "I am h2 tag")])]
 
 );
 // render-->it was replace not append the content by child
